@@ -9,11 +9,11 @@ import Cocoa
 
 // This subclass stands for "AppleScriptableApplication".
 // It's a simple entry point to provide basic AppleScript
-// capabilities to your app. Take a look at macOS/Resources/DefaultApp.sdef
+// capabilities to your app. Take a look at macOS/Resources/TestMacApp.sdef
 class ASApplication: NSApplication {
     
     // This is just an example command to see how it relates to the
-    // corresponding definition in macOS/Resources/DefaultApp.sdef
+    // corresponding definition in macOS/Resources/TestMacApp.sdef
     func openMainWindow() {
         if let delegate = delegate as? AppDelegate {
             delegate.showMainWindow(nil)

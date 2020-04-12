@@ -49,7 +49,7 @@
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
-	<string>DefaultApp.ASApplication</string>
+	<string>TestMacApp.ASApplication</string>
 	<key>NSSupportsAutomaticTermination</key>
 	<true/>
 	<key>NSSupportsSuddenTermination</key>
@@ -57,7 +57,7 @@
 	<key>NSUserNotificationAlertStyle</key>
 	<string>banner</string>
 	<key>OSAScriptingDefinition</key>
-	<string>DefaultApp.sdef</string>
+	<string>TestMacApp.sdef</string>
 	<key>SUFeedURL</key>
 	<string></string>
 	<key>SUPublicDSAKeyFile</key>

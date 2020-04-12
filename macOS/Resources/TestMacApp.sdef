@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
-<dictionary title="DefaultApp Terminology">
-    <suite name="DefaultApp Suite" code="VHXX" description="DefaultApp-specific classes.">
-        <command name="open main window" code="MAINWNDW" description="Opens the main DefaultApp window."/>
+<dictionary title="TestMacApp Terminology">
+    <suite name="TestMacApp Suite" code="VHXX" description="TestMacApp-specific classes.">
+        <command name="open main window" code="MAINWNDW" description="Opens the main TestMacApp window."/>
 
-        <class name="DefaultApp application" code="capp" description="DefaultApp's top level scripting object." plural="applications" inherits="application">
+        <class name="TestMacApp application" code="capp" description="TestMacApp's top level scripting object." plural="applications" inherits="application">
             <cocoa class="ASApplication"/>
             <responds-to command="open main window">
                 <cocoa method="openMainWindow"/>

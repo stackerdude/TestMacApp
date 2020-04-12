@@ -1,6 +1,6 @@
 //
 //  MenuBarStatusItem.swift
-//  DefaultApp
+//  TestMacApp
 //
 //  Created by Tyler Hall on 3/14/20.
 //  Copyright © 2020 Your Company. All rights reserved.

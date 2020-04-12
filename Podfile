@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target "DefaultApp" do
+target "TestMacApp" do
   platform :osx, "10.14"
   inhibit_all_warnings!
   pod 'AppCenter'
@@ -9,7 +9,7 @@ target "DefaultApp" do
   pod 'Alamofire'
 end
 
-target "DefaultApp-MAS" do
+target "TestMacApp-MAS" do
   platform :osx, "10.14"
   inhibit_all_warnings!
   pod 'AppCenter'

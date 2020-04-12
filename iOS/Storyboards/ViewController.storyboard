@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="NSN-Qc-Eau">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="daT-Ol-0is" customClass="ViewController" customModule="DefaultApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="daT-Ol-0is" customClass="ViewController" customModule="TestMacApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="COI-g4-O6Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

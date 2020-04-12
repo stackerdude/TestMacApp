@@ -1,6 +1,6 @@
-# DefaultApp README
+# TestMacApp README
 
-## DefaultApp is an open source starting point – a template - for native macOS developers.
+## TestMacApp is an open source starting point – a template - for native macOS developers.
 
 I maintained it in Objective-C for over a decade before finally porting it to Swift in 2018. Anytime I start a new app – big or small, whether or not it’s something I plan on releasing publicly or if it’s just a small prototype or utility app I’m building for myself – I start with this project.
 
@@ -13,17 +13,17 @@ I maintained it in Objective-C for over a decade before finally porting it to Sw
 * It also builds an iOS companion app target for iOS 13 with shared code between the two platforms.
 * Default `NSWindowController`s for a primary app window and Preferences window are wired up and ready to go. They're also built using `xib`s because storyboards on macOS are dumb.
 * The app is [`AppleScript`](https://en.wikipedia.org/wiki/AppleScript) enabled by default and includes a sample [`.sdef`](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/AboutScriptingTerminology.html) scripting dictionary because you can pry `AppleScript` support out of my cold, dead hands.
-* Two [helper](https://github.com/tylerhall/DefaultApp/blob/master/macOS/Models/Outlines/OutlineItem.swift) [classes](https://github.com/tylerhall/DefaultApp/blob/master/macOS/Models/Outlines/RootItem.swift) that make building a typical [macOS source list](https://developer.apple.com/documentation/appkit/cocoa_bindings/navigating_hierarchical_data_using_outline_and_split_views?language=objc) easy.
-* A few [common controls and `NSView` subclasses](https://github.com/tylerhall/DefaultApp/tree/master/macOS/UI) that I find myself using in nearly every project.
+* Two [helper](https://github.com/tylerhall/TestMacApp/blob/master/macOS/Models/Outlines/OutlineItem.swift) [classes](https://github.com/tylerhall/TestMacApp/blob/master/macOS/Models/Outlines/RootItem.swift) that make building a typical [macOS source list](https://developer.apple.com/documentation/appkit/cocoa_bindings/navigating_hierarchical_data_using_outline_and_split_views?language=objc) easy.
+* A few [common controls and `NSView` subclasses](https://github.com/tylerhall/TestMacApp/tree/master/macOS/UI) that I find myself using in nearly every project.
 * Sane Xcode defaults for settings such as [enabling insecure HTTP requests in web views](https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity?language=objc) but not in the rest of the app and also making the project compatible with [`agvtool`](https://developer.apple.com/library/archive/qa/qa1827/_index.html). Little things such as those that are helpful but nearly impossible to google unless you know what you don't know.
 * Pre-configured to [check for app updates with Sparkle](https://sparkle-project.org). (And in the Mac App Store target, Sparkle is completely removed to appease the App Review gods.)
 * A fair amount of other miscellaneous code and helper `extension`s that always come up and no one wants to write from scratch each time.
-* Pre-written [`Podfile`](https://github.com/tylerhall/DefaultApp/blob/master/Podfile) and [`Cartfile`](https://github.com/tylerhall/DefaultApp/blob/master/Cartfile)s that include the usual open source libraries I include in all of my projects. (I would have migrated to the Swift Package Manager instead, but not everything is available through it yet.)
+* Pre-written [`Podfile`](https://github.com/tylerhall/TestMacApp/blob/master/Podfile) and [`Cartfile`](https://github.com/tylerhall/TestMacApp/blob/master/Cartfile)s that include the usual open source libraries I include in all of my projects. (I would have migrated to the Swift Package Manager instead, but not everything is available through it yet.)
 
 ## Installation
 
 1. Clone this repo.
-2. Inside you'll find a small shell script called `renameApp.sh`. This will let you rename the project to something other than `DefaultApp`. To use it, just run this command in a command prompt:
+2. Inside you'll find a small shell script called `renameApp.sh`. This will let you rename the project to something other than `TestMacApp`. To use it, just run this command in a command prompt:
 
 	./renameApp.sh MyAppName
 
